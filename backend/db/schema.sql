@@ -1,7 +1,6 @@
-CREATE
-DATABASE IF NOT EXISTS urlshortener;
-USE
-urlshortener;
+CREATE DATABASE IF NOT EXISTS urlshortener;
+USE urlshortener;
+
 CREATE TABLE `users`
 (
     `id`            bigint       NOT NULL AUTO_INCREMENT,
